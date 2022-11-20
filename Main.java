@@ -54,7 +54,6 @@ public class Main {
         tNode6.addChild(tNode11);
         tNode6.addChild(tNode20);
 
-        TreeNode.treeSearch(tNode1);
         TreeNode.preOrder(tNode1);
         TreeNode.postOrder(tNode1);
         

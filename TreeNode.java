@@ -28,14 +28,6 @@ public class TreeNode {
         return "Node" + value;
     }
 
-    public String showChildren() {
-        String treeView = "node" + value + "\n" + "";
-        for (TreeNode node : children) {
-            treeView += "node" + node.value + "";
-        }
-        return treeView;
-    }
-
     public void addChild(TreeNode child) {
         child.parent = this;
         children.add(child);

@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        // 1
-        // / \
-        // 2 3
-        // / / \
-        // 4 5 6
-        // / \ / \
-        // 7 9 11 20
+        //        1
+        //       / \
+        //      2   3
+        //     /   / \
+        //    4   5   6
+        //  /   \  /     \
+        // 7    9 11     20
 
         BinaryNode root = new BinaryNode(1);
         BinaryNode node2 = new BinaryNode(2);

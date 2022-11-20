@@ -63,20 +63,6 @@ public class TreeNode {
         }
     }
 
-    public static void postOrder(TreeNode root) {
-        if (root != null) {
-            if (root.children.size() != 0)
-                System.out.print("(");
-            for (int i = 0; i < root.children.size(); i++) {
-                if (i == root.children.size() - 1)
-                    System.out.print(")");
-                else
-                    System.out.print(",");
-            }
-            System.out.print(root.value);
-        }
-    }
-
     @Override
     public boolean equals(Object o) {
         var n = (TreeNode) o;

@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-//          1
-//        /   \
-//       2      3
-//      /     /   \
-//     4     5     6
-//   /   \        / \
-//  7     9     11   20
+        // 1
+        // / \
+        // 2 3
+        // / / \
+        // 4 5 6
+        // / \ / \
+        // 7 9 11 20
 
         BinaryNode root = new BinaryNode(1);
         BinaryNode node2 = new BinaryNode(2);
@@ -30,7 +30,7 @@ public class Main {
         node3.right = node6;
         node6.left = node11;
         node6.right = node20;
-        
+
         TreeNode tNode1 = new TreeNode("1");
         TreeNode tNode2 = new TreeNode("2");
         TreeNode tNode3 = new TreeNode("3");
@@ -41,7 +41,6 @@ public class Main {
         TreeNode tNode9 = new TreeNode("9");
         TreeNode tNode11 = new TreeNode("11");
         TreeNode tNode20 = new TreeNode("20");
-
 
         tNode1.addChild(tNode2);
         tNode2.addChild(tNode4);
@@ -55,7 +54,5 @@ public class Main {
         tNode6.addChild(tNode20);
 
         TreeNode.preOrder(tNode1);
-        TreeNode.postOrder(tNode1);
-        
     }
 }
